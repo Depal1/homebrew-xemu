@@ -6,7 +6,7 @@ cask "xemu" do
       verified: "https://github.com/mborgerson/xemu/releases/"
   name "Xemu"
   desc "Original Xbox Emulator"
-  homepage "https://xemu.app"
+  homepage "https://xemu.app/"
 
   livecheck do
     url :stable
