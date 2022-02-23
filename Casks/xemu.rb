@@ -10,7 +10,7 @@ cask "xemu" do
 
   livecheck do
     url :stable
-    regex(/^(gh-release/)?(\d+(?:\.\d+)+)$/i)
+    regex(/^gh-release?(\d+(?:\.\d+)+)$/i)
   end
 
   app "Xemu.app"
