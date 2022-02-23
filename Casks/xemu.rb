@@ -8,6 +8,10 @@ cask "xemu" do
   desc "Original Xbox Emulator"
   homepage "https://xemu.app/"
 
+  livecheck do
+    regex(/^v?(\d+(?:\.\d+)+-\d+-+g+[0-9a-f]{5,40}\b)$/i)
+  end
+
   app "Xemu.app"
 
   zap trash: [
