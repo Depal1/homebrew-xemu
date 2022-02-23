@@ -9,7 +9,7 @@ cask "xemu" do
   homepage "https://xemu.app/"
 
   livecheck do
-    regex(/^v?(\d+(?:\.\d+)+-\d+-+g+[0-9a-f]{5,40}\b)$/i)
+    regex(/gh-release[\/]v?(\d+(?:\.\d+)+-\d+-+g+[0-9a-f]{5,40}\b)$/i)
   end
 
   app "Xemu.app"
