@@ -18,6 +18,6 @@ cask "xemu" do
   zap trash: [
     "~/Library/Application Support/xemu",
     "~/Library/Preferences/xemu.app.0.plist",
-    "~/Library/Saved Application State/xemu.app.0.savedState”,
+    "~/Library/Saved Application State/xemu.app.0.savedState",
   ]
 end
